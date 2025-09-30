@@ -1,0 +1,67 @@
+.grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); 
+   grid-auto-rows: 100px; 
+   gap: 10px;
+}
+
+.grid > div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid rgb(54, 22, 22);
+   color: white;
+   font-weight: bold;
+}
+
+
+.div1 {
+   background: rgb(135, 135, 207);
+   grid-column: span 2;
+}
+
+
+.div2 {
+   background: darkmagenta;
+}
+
+
+.div3 {
+   background: rgb(38, 36, 2);
+   grid-row: span 2;
+}
+
+
+.div4 { background: rgb(176, 176, 122); 
+}
+
+
+.div5 { background: rgb(37, 44, 37); 
+}
+
+
+.div6 { background: grey; 
+}
+
+
+.div7 {
+   background: rgb(219, 30, 78);
+   grid-column: span 2;
+   grid-row: span 2;
+}
+
+
+.div8 { background: green; 
+}
+
+
+.div9 { background: orangered; 
+}
+
+
+.div10 { background: rgb(23, 38, 45); 
+}
+
+
+.div11 { background: rgb(77, 20, 76); 
+}
